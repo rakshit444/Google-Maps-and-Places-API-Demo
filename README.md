@@ -1,6 +1,3 @@
-# Google-Maps-and-Places-API-Demo
-This project describes the basic use of the google maps and places api for android application. It can also serve as the base architecture for places or maps related applications.
-
 # android-google-maps-demo
 
 A simple Google Maps and Google Places Android API v2 Demo app. This app helps us test if we have the play services properly setup on our emulator.

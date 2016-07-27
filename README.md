@@ -1,4 +1,4 @@
-# android-google-maps-demo
+# Android-google-maps-demo
 
 A simple Google Maps and Google Places Android API v2 Demo app. This app helps us test if we have the play services properly setup on our emulator.
 

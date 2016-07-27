@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.api.uniconn.Activites.activity_details">
+
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <ProgressBar
+        android:layout_below="@+id/map"
+        android:id="@+id/Progress1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+    </ProgressBar>
+
+    <ImageView
+        android:layout_below="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/image1"/>
+</RelativeLayout>
